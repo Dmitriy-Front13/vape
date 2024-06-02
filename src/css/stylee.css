@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.shapka {
+padding: 0 40px;
+
+}
+.phone {
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.phonei {
+    padding-right: 2px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+ 
+.header-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 40px;
+    background-color: #e8e8ed;
+}
+
+.nav-item {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 20px 40px;
+    
+}
+
+.buttons {
+    height: 81px;
+   border: none;
+   outline: none;
+   background-color:#e8e8ed;
+   border-bottom: 3px solid transparent;
+}
+
+.buttons:hover {
+    border-bottom: 3px solid #000000b3;
+}
+
+.clock {
+    padding-right: 2px;
+}
+
+.oclock {
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.mapi {
+    padding-right: 2px; 
+}
+.map {
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center; 
+    padding-bottom: 2px;  
+}
+.mapic:hover {
+    color:rgb(207, 21, 43);
+}
+
+.container {
+    display: flex;
+}
+
+.text1 {
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    left: 100px; 
+    margin-top: 90px;
+    width: 556px;
+}
+
+li {
+    margin-top: 10px;
+}
+
+
+.button {
+    margin-top: 80px;
+}
+.buton {
+    padding: 15px 25px ;
+    border:2px dashed #000;
+    border-radius: 98px;
+}
+.buton:hover {
+    border: 2px dashed rgb(207, 21, 43);
+    color:rgb(207, 21, 43);
+}
+.asortiment {
+    visibility: hidden;
+    padding: 5px;
+    
+
+}
+

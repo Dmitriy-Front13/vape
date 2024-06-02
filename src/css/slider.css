@@ -1,0 +1,143 @@
+.photo {
+    width: 548px;
+    height: 548px;
+    margin-top: 25px;
+    position:absolute ;
+    align-items: center;
+    right: 100px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+
+.navigation {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar {
+    height: 8px;
+    width: 20px;
+    margin: 6px;
+    cursor: pointer;
+    background-color: #ddd;
+    opacity: .5;
+    border-radius: 10px;
+    transition: all .4s ease;
+}
+
+.bar:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+.arwl {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    bottom:225px;
+    left: -207px;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+    transition: all .4s ease;
+    z-index: 2;
+}
+
+.arwl:hover::after {
+opacity: .45;
+transform: scale(1.05);
+}
+
+.arwl::after {
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color:#ddd;
+    opacity: .3;
+    transition: all .3s ease;
+    z-index: 1;
+}
+
+
+.arwr {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    bottom:225px;
+    right: -207px;
+    opacity: 1;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    z-index: 2;
+}
+
+.arwr:hover::after {
+    opacity: .45;
+    transform: scale(1.05);
+}
+
+.arwr::after {
+    content: "";
+    position: relative;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color:#ddd;
+    opacity: .3;
+    transition: all .3s ease;
+    z-index: 1;
+}
+
+
+input[name="r"] {
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides {
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+
+.images {
+    width: 25%;
+    transition: all .6s ease;
+} 
+
+.images img {
+    width: 100%;
+    height: 100%;
+}
+
+#r1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#r2:checked ~ .s1 {
+    margin-left: -548px;
+}
+
+
+#r3:checked ~ .s1 {
+    margin-left: -1096px;
+}
+
+
+#r4:checked ~ .s1 {
+    margin-left: -1644px;
+}
+
+
+
+
